@@ -1,0 +1,20 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+$primary:rgb(0, 128, 128);
+
+$theme-colors: (
+    "primary": $primary
+);
+
+// Create your own map
+$custom-colors: (
+    "custom-color": #900
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "./node_modules/bootstrap/scss/bootstrap";

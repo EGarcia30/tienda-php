@@ -1,0 +1,282 @@
+/*FONTS*/
+/*{
+    border:1px solid red;
+}*/
+
+h1,h2,h3,h4,a{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+}
+
+p,button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.font-teal{
+    color: rgb(0, 128, 128);
+}
+
+/*CONTENEDORES MENU*/
+.container__nav{
+    width: 100%;
+}
+
+.container__navW{
+    max-width: 68em;
+    padding: 1.2em;
+    margin: 0 auto;
+}
+
+.navigate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*IMG RES*/
+
+.img-fit{
+    width:8em;
+    max-height: 5em;
+    object-fit: cover;
+}
+
+/*MENU*/
+.menu{
+    cursor: pointer;
+}
+.icon{
+    font-size: 1.7em;
+    color: #000000;
+    padding: 5px 15px;
+}
+
+.nav-res{
+    position: fixed;
+    top:0;
+    right: -16em;
+    transition: all 500ms ease-out;
+}
+
+.mostrar{
+    right:0;
+}
+
+.nav-wh{
+    width: 12em;
+    height: 100vh;
+    z-index: 1;
+    background-color: #fff;
+}
+
+#back__menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 1;
+}
+
+.close{
+    height: 6em;
+}
+
+.icon__close{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 2.2rem 0 0;
+}
+
+.nav__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.nav__item{
+    padding: 1.25em 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1em;
+}
+
+/*EFECTO UNDERLINE*/
+.nav__link::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    display: block;
+    background: rgb(0, 128, 128);
+    transition: 400ms ease;
+}
+
+.nav__link--active::after,
+.nav__link:hover::after{
+    width: 100%;
+}
+
+@media screen and (min-width:640px) {
+    .menu{
+        display: none;
+    }
+    .close{
+        display: none;
+    }
+
+    .nav-res{
+        position: static;
+        
+    }
+
+    .nav__links{
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .nav-wh{
+        width: auto;
+        height: auto;
+    }
+
+    .nav__item{
+        padding: 0 1em;
+    }
+}
+
+/*INDEX*/
+.carousel-item img{
+    height: 200px;
+}
+
+@media screen and (min-width:468px) {
+    .carousel-item img{
+        height: 350px;
+    }
+}
+
+@media screen and (min-width:868px) {
+    .carousel-item img{
+        height: 600px;
+    }
+}
+
+/*CARDS*/
+
+.w-res{
+    position: relative;
+    width: 50%;
+    padding: 0;
+}
+
+.w-res:after{
+    content: "";
+    position: absolute;
+    top: calc(80% - 50%);
+    right: 0;
+    height: 50%;
+    width: 1px;
+    margin: auto 0;
+    background-color: #e9e9e9;
+}
+
+.w-res:nth-last-child(1)::after{
+    height: 0;
+}
+
+.w-res:nth-last-child(3)::after{
+    height: 0;
+}
+
+.text-res{
+    width: 100%;
+    font-size: 0.5em;
+}
+
+.text-link{
+    font-size: 0.6em;
+}
+
+@media screen and (min-width:576px) {
+
+    .text-res{
+        width: 50%;
+        margin: 0 auto;
+        font-size: 0.8em;
+    }
+
+    .text-link{
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .w-res{
+        width: 25%;
+    }
+
+    .text-res{
+        width: 100%;
+    }
+
+    .w-res:nth-last-child(3)::after{
+        height: 55%;
+    }
+}
+
+/*CARDS ICONS*/
+
+.icon-lg-size{
+    font-size: 2em;
+}
+
+@media screen and (min-width:576px) {
+    .icon-lg-size{
+        font-size: 2.5em;
+    }
+}
+
+/*Novedades*/
+
+.ul-txt-res{
+    font-size: 0.7em;
+    padding: 0 0.4em;
+}
+
+@media screen and (min-width:576px) {
+    .ul-txt-res{
+        font-size: 1em;
+    }
+}
+
+/*Disponibilidad*/
+
+.bg-disponibilidad{
+    background: linear-gradient(150deg, rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.815)),
+    url(../src/assets/img/innovacion.jpg) no-repeat fixed;
+    background-position: 68%;
+    background-size: cover;
+    
+}
+
+/*FOOTER*/
+
+.w-txt-footer{
+    width: 100%;
+    text-align: start;
+}
+
+
+
