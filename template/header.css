@@ -250,6 +250,10 @@ p,button{
 
 /*Novedades*/
 
+.bg-teal{
+    background:rgb(0, 128, 128);
+}
+
 .ul-txt-res{
     font-size: 0.7em;
     padding: 0 0.4em;

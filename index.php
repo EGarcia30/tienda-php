@@ -93,13 +93,13 @@
             <div class="w-100">
                 <div class="row p-0 m-0 justify-content-end flex-wrap">
                     <div class="col-12 col-md-5 p-0 pe-md-2">
-                        <img src="./src/assets/img/promo1.jpg" alt="Curso" class="h-100 rounded-5 col-12">
+                        <img src="./src/assets/img/promo1.png" alt="Curso" class="h-100 rounded-5 col-12 bg-black bg-opacity-75">
                     </div>
                     <div class="col-12 col-md-7 p-0 pt-3 pt-sm-5 p-md-0 ps-md-2">
-                        <img src="./src/assets/img/promo2.jpg" alt="Tecnologia" class="h-50 ms-4 ms-sm-3 m-md-0 ms-lg-3 pb-2 rounded-5 col-5">
-                        <img src="./src/assets/img/promo3.jpg" alt="" class="h-50 ms-sm-5 ms-md-3 pb-2 rounded-5 col-5">
-                        <img src="./src/assets/img/promo4.png" alt="" class="h-50 ms-4 ms-sm-3 m-md-0 ms-lg-3 rounded-5 col-5">
-                        <img src="./src/assets/img/promo5.jpg" alt="" class="h-50 ms-sm-5 ms-md-3 rounded-5 col-5">
+                        <img src="./src/assets/img/promo2.png" alt="Tecnologia" class="bg-teal h-50 ms-4 ms-sm-3 m-md-0 ms-lg-3 mb-2 rounded-5 col-5">
+                        <img src="./src/assets/img/promo3.png" alt="" class="bg-teal h-50 ms-sm-5 ms-md-3 mb-2 mb-md-1 rounded-5 col-5">
+                        <img src="./src/assets/img/promo4-r.png" alt="" class="bg-teal h-50 ms-4 ms-sm-3 m-md-0 ms-lg-3 rounded-5 col-5">
+                        <img src="./src/assets/img/promo5.png" alt="" class="bg-teal h-50 ms-sm-5 ms-md-3 rounded-5 col-5">
                     </div>
                 </div>
             </div>
