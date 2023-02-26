@@ -1,19 +1,19 @@
-<?php include('./template/header.php')?>
+<?php include('./template/general/header.php')?>
 <main class="bg-white">
     <!--Carousel-->
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
-            <img src="./src/assets/img/carousel3.jpg" class="d-block w-100" alt="Servicios">
+            <img src="./assets/img/carousel3.jpg"  class="d-block w-100" alt="Servicios">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-            <img src="./src/assets/img/carousel2.jpg" class="d-block w-100" alt="Tecnologia">
+            <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="Tecnologia">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-            <img src="./src/assets/img/carousel4.jpg" class="d-block w-100" alt="Cursos">
+            <img src="./assets/img/carousel4.jpg" class="d-block w-100" alt="Cursos">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-            <img src="./src/assets/img/carousel1.png" class="d-block w-100" alt="Promociones">
+            <img src="./assets/img/carousel1.png" class="d-block w-100" alt="Promociones">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -37,7 +37,7 @@
                         <p class="text-res">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                         </p>
-                        <a href="#" class="text-link">Seguir Leyendo</a>
+                        <a href="<?= uriLogin ?>" class="text-link">Seguir Leyendo</a>
                     </div>
                 </div>
                 <div class="col w-res">
@@ -48,7 +48,7 @@
                         <p class="text-res">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
-                        <a href="#" class="text-link">Seguir Leyendo</a>
+                        <a href="<?= uriLogin ?>" class="text-link">Seguir Leyendo</a>
                     </div>
                 </div>
                 <div class="col w-res">
@@ -59,7 +59,7 @@
                         <p class="text-res">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </p>
-                        <a href="#" class="text-link">Seguir Leyendo</a>
+                        <a href="<?= uriLogin ?>" class="text-link">Seguir Leyendo</a>
                     </div>
                 </div>
                 <div class="col w-res">
@@ -70,7 +70,7 @@
                         <p class="text-res">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                         </p>
-                        <a href="#" class="text-link">Seguir Leyendo</a>
+                        <a href="<?= uriLogin ?>" class="text-link">Seguir Leyendo</a>
                     </div>
                 </div>
             </div>
@@ -84,22 +84,22 @@
             </div>
             <div class="w-100">
                 <ul class="d-flex justify-content-around justify-content-md-center align-items-center p-0 flex-wrap ">
-                    <li class="nav__item"><a href="#" class="nav__link nav__link--active ul-txt-res">Servicios Destacados</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link ul-txt-res">Tecnologia</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link ul-txt-res">Cursos</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link ul-txt-res">Electrodomesticos</a></li>
+                    <li class="nav__item"><a href="<?= uriLogin ?>" class="nav__link nav__link--active ul-txt-res">Servicios Destacados</a></li>
+                    <li class="nav__item"><a href="<?= uriLogin ?>" class="nav__link ul-txt-res">Tecnologia</a></li>
+                    <li class="nav__item"><a href="<?= uriLogin ?>" class="nav__link ul-txt-res">Cursos</a></li>
+                    <li class="nav__item"><a href="<?= uriLogin ?>" class="nav__link ul-txt-res">Electrodomesticos</a></li>
                 </ul>
             </div>
             <div class="w-100">
                 <div class="row p-0 m-0 justify-content-end flex-wrap">
                     <div class="col-12 col-md-5 p-0 pe-md-2">
-                        <img src="./src/assets/img/promo1.png" alt="Curso" class="h-100 rounded-5 col-12 bg-black bg-opacity-75">
+                        <img src="./assets/img/promo1.png" alt="Curso" class="h-100 rounded-5 col-12 bg-teal">
                     </div>
                     <div class="col-12 col-md-7 p-0 pt-3 pt-sm-5 p-md-0 ps-md-2">
-                        <img src="./src/assets/img/promo2.png" alt="Tecnologia" class="bg-teal h-50 ms-4 ms-sm-3 m-md-0 ms-lg-3 mb-2 rounded-5 col-5">
-                        <img src="./src/assets/img/promo3.png" alt="" class="bg-teal h-50 ms-sm-5 ms-md-3 mb-2 mb-md-1 rounded-5 col-5">
-                        <img src="./src/assets/img/promo4-r.png" alt="" class="bg-teal h-50 ms-4 ms-sm-3 m-md-0 ms-lg-3 rounded-5 col-5">
-                        <img src="./src/assets/img/promo5.png" alt="" class="bg-teal h-50 ms-sm-5 ms-md-3 rounded-5 col-5">
+                        <img src="./assets/img/promo2.png" alt="Tecnologia" class="bg-black bg-opacity-75 h-50 ms-4 ms-sm-3 m-md-0 ms-lg-3 mb-2 rounded-5 col-5">
+                        <img src="./assets/img/promo3.png" alt="" class="bg-black bg-opacity-75 h-50 ms-sm-5 ms-md-3 mb-2 mb-md-1 rounded-5 col-5">
+                        <img src="./assets/img/promo4-r.png" alt="" class="bg-black bg-opacity-75 h-50 ms-4 ms-sm-3 m-md-0 ms-lg-3 rounded-5 col-5">
+                        <img src="./assets/img/promo5.png" alt="" class="bg-black bg-opacity-75 h-50 ms-sm-5 ms-md-3 rounded-5 col-5">
                     </div>
                 </div>
             </div>
@@ -149,4 +149,4 @@
         </div>
     </div>
 </main>
-<?php include('./template/footer.php')?>
+<?php include('./template/general/footer.php')?>

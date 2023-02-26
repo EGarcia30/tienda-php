@@ -1,5 +1,14 @@
+<IfModule mod_rewrite.c>
+#rewrite engine settings:
+RewriteEngine On
+RewriteBase /c022021/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1.php
+RewriteRule . routerGeneral.php [NC,L]
+</IfModule>
 
 # HTID:21273669: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
 php_value display_errors 1
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:21273669:
-

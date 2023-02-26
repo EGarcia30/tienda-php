@@ -269,7 +269,7 @@ p,button{
 
 .bg-disponibilidad{
     background: linear-gradient(150deg, rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.815)),
-    url(../src/assets/img/innovacion.jpg) no-repeat fixed;
+    url(../../assets/img/innovacion.jpg) no-repeat fixed;
     background-position: 68%;
     background-size: cover;
     

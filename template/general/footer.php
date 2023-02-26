@@ -27,8 +27,8 @@
             </div>
         </div>
     </footer>
-    <script src="./src/assets/tools/js/index.js"></script>
-    <script src="./src/assets/tools/js/swiper/index.js"></script>
-    <script src="./src/assets/tools/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/tools/js/index.js"></script>
+    <script src="./assets/tools/js/swiper/index.js"></script>
+    <script src="./assets/tools/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
